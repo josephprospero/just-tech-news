@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const withAuth = require('../../utils/auth.js');
 const { User, Post, Vote } = require('../../models');
 
 // GET /api/users
